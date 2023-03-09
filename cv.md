@@ -11,7 +11,7 @@
 ## About me
 
 25 years old. Barber/Hairdresser whith 5 years experience.
----
+
 I want to learn FE development to get distance job and discover the world.
 
 ## Skills
