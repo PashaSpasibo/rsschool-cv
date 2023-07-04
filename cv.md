@@ -6,7 +6,7 @@
 
 * [GitHub](https://github.com/PashaSpasibo)
 * Tg/WA +79152233504
-* pav.tro98@icloud.com
+* pa.spasibo@gmail.com
 
 ## About me
 
