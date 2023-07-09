@@ -4,8 +4,114 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>My CV</title>
 </head>
 <body>
+  <header>
+    <h1>Pasha Spasibo</h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#expirience">Expirience</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+      <div class="about-container main-block">
+        <h2>About me</h2>
+        <p class="block-content">Hello, my name is Pasha. I am 25 years old. Born in Moscow.<br> Barber/Hairdresser with 5 years experience.<br>
+          I want to learn FE development to get distance job and discover the world.</p>
+        <img src="/images/my-face.jpeg" alt="my face" class="my-face">
+      </div>
+      <hr>
+    <div class="contacts-container main-block" id="contacts">
+      <ul class="block-content">
+        <li><a href="https://github.com/PashaSpasibo">GitHub</a></li>
+        <li>Tg/WA +79152233504</li>
+        <li>pa.spasibo@gmail.com</li>
+      </ul>
+      <h2>Contacts</h2>
+    </div>
+    <hr>
+    <div class="skills-container main-block">
+      <h2>Skills</h2>
+      <ul class="block-content">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>Python</li>
+        <li>Git</li>
+      </ul>
+    </div>
+    <hr>
+    <div class="code-container main-block">
+      <pre class="block-content">
+        1342. Number of Steps to Reduce a Number to Zero
+        from leetcode.com:
+      <code>var numberOfSteps = function(num) {
+        function isOdd(n){
+            return n % 2 !== 0;
+        }
+        let steps = 0;
+        while (num > 0){
+          if (isOdd(num)){
+              num -= 1;
+              steps += 1;
+          }else {
+              num /= 2;
+              steps += 1;
+          }
+        }
+        return steps;
+      };
+      </code>
+    </pre>
+      <h2>Code example</h2>
+    </div>
+    <hr>
+    <div class="experience-container main-block" id="expirience">
+      <h2>Experience</h2>
+      <p class="block-content"><a href="https://pashaspasibo.github.io/virtual-keyboard/">Virtual keyboard</a></p>
+    </div>
+    <hr>
+    <div class="education-container main-block" id="education">
+      <ul class="block-content">
+        <li>
+          2 undergraduate courses in Moscow Aviation Institute:
+          <ul>
+            <li>Faculty of general engineering training </li>
+          </ul>
+        </li>
+        <li>
+          Skillbox:
+          <ul>
+            <li>Python developer</li>
+          </ul>
+        </li>
+        <li>
+          CodeBasics:
+          <ul>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+          </ul>
+        </li>
+      </ul>
+      <h2>Education</h2>
+    </div>
+  </main>
+  <footer>
+      <a href="https://github.com/PashaSpasibo" class="github">
+        <img src="/images/github-logo.png" alt="github" class="github-logo">
+        <p>PashaSpasibo</p>
+      </a>
+      <p>2023</p>
+    <div class="rss">
+      <a href="https://rs.school/js/"><img src="/images/rs_school_js.svg" alt="rsschool" class="rss"></a>
+    </div>
+  </footer>
 </body>
 </html>
