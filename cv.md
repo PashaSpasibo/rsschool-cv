@@ -23,11 +23,26 @@ I want to learn FE development to get distance job and discover the world.
 * Git
 
 ## Code example:
+1342. Number of Steps to Reduce a Number to Zero
+        from leetcode.com:
 
 ```
-var isSquare = function(n){
- return Number.isInteger(Math.sqrt(n))
-}
+var numberOfSteps = function(num) {
+        function isOdd(n){
+            return n % 2 !== 0;
+        }
+        let steps = 0;
+        while (num > 0){
+          if (isOdd(num)){
+              num -= 1;
+              steps += 1;
+          }else {
+              num /= 2;
+              steps += 1;
+          }
+        }
+        return steps;
+      };
 ```
 
 ## Experience
