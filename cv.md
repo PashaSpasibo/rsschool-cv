@@ -47,7 +47,7 @@ var numberOfSteps = function(num) {
 
 ## Experience
 
-I have no work experience yet :c
+https://pashaspasibo.github.io/virtual-keyboard/
 
 ## Education
 

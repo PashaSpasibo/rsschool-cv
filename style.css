@@ -116,7 +116,7 @@ hr{
 }
 footer{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #70a9ff7d;
 
 }
